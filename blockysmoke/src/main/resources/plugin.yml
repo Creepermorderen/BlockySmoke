@@ -1,0 +1,23 @@
+name: BlockySmoke
+main: org.pepsoft.bukkit.blockysmoke.BlockySmokePlugin
+version: 1.0.0
+
+commands:
+   createsmoker:
+      description: Turn the block you are targetting into a blocky smoker
+      usage: /createsmoker [density=§on§r] [decay=§on§r] [maxDistance=§on§r] [wind=random | wind=§oA§r | wind=§oA§r-§oA§r] [randomSpread=true | randomSpread=false]
+   inspectsmoker:
+      description: List the settings of the blocky smoker you are targetting
+      usage: /inspectsmoker
+   removesmoker:
+      description: Remove the blocky smoker you are targetting
+      usage: /removesmoker
+   removeallsmokers:
+      description: Remove all blocky smokers in this world
+      usage: /removeallsmokers
+   pausesmokers:
+      description: Pause all blocky smokers in this world and remove all smoke
+      usage: /pausesmokers
+   continuesmokers:
+      description: Unpause all blocky smokers
+      usage: /continuesmokers
